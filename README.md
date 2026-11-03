@@ -6,7 +6,7 @@
 ## Overview
 
 This project provides a FastAPI service that analyzes English text. It returns a sentiment label (POSITIVE or NEGATIVE) and a confidence score in JSON format.
-ư
+
 ## Model Used
 
 [DistilBERT base uncased finetuned SST-2](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english)
@@ -64,4 +64,4 @@ Example response:
 
 ## Demo Video
 
-[Add your video link here]
+[VIDEO](https://youtu.be/V29WymzeFE4)
