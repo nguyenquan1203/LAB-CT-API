@@ -16,8 +16,8 @@ for path in ["/", "/health"]:
 
 # Test two inputs with different sentiments.
 sentences = [
-    ("I love this movie. It was fantastic!", "POSITIVE"),
-    ("This movie was terrible. I hated every minute of it.", "NEGATIVE"),
+    ("I love this movie", "POSITIVE"),
+    ("This movie was terrible", "NEGATIVE"),
 ]
 
 for text, expected_label in sentences:
